@@ -1,6 +1,6 @@
 {
   "name": "simp-postgresql",
-  "version": "4.1.0",
+  "version": "4.1.1",
   "author": "Inkling/Puppet Labs",
   "summary": "PostgreSQL defined resource types",
   "license": "ASL 2.0",
@@ -67,8 +67,17 @@
     }
   ],
   "dependencies": [
-    {"name":"puppetlabs/stdlib","version_requirement":"4.x"},
-    {"name":"puppetlabs/apt","version_requirement":">=1.1.0 <2.0.0"},
-    {"name":"simp/concat","version_requirement":">= 4.0.0"}
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": "4.x"
+    },
+    {
+      "name": "puppetlabs/apt",
+      "version_requirement": ">=1.1.0 <2.0.0"
+    },
+    {
+      "name": "simp/simpcat",
+      "version_requirement": ">= 4.0.0"
+    }
   ]
 }
